@@ -467,6 +467,7 @@ img {
 }
 .services__price {
   padding-top: 7.5rem;
+  line-height: 1.9rem;
 }
 .services__price small:first-child{
   font-size: var(--h4);
