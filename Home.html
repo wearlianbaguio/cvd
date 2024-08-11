@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
   </head>
   <body>
     <!--HEADER-->
@@ -24,8 +25,8 @@
             </div>
           </div>
 
-          <nav class="header__nav">
-            <ul class="header__navtext">
+          <nav>
+            <ul class="header__nav">
               <li><a href="./Home.html">Home</a></li>
               <li><a href="./About.html">About</a></li>
               <li><a href="./Services.html">Services</a></li>
@@ -52,17 +53,19 @@
               suscipit dicta maxime doloremque consequuntur natus molestiae quos
               mollitia.
             </p>
-            <a href="" class="btn bg-primary">Learn More</a>
+            <a href="./Services.html" class="btn bg-primary">Learn More</a>
           </div>
           <div class="HomeBanner__img">
             <img src="./img/home/Hero.png" alt="" />
           </div>
+          
         </div>
+        <a href="#section1"><i class="fa-solid fa-chevron-down"></i></a>
       </div>
     </section>
 
     <!-- GETQUOTE -->
-    <section class="homeget">
+    <section id="section1" class="homeget">
       <div class="container">
         <div class="homeget__wrapper">
           <div class="homeget__card">
@@ -218,7 +221,7 @@
           <div class="Context__text">
             <h3>Feel free to talk about your Projects</h3>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <a href="" class="btn bg-dark">Contact Us</a>
+            <a href="./Contacts.html" class="btn bg-dark">Contact Us</a>
           </div>
         </div>
       </div>
@@ -245,12 +248,18 @@
             </li>
           </ul>
           <p>
-            Parklane Country Homes, Phase 8 Block 19 Lot 1,<br />Santiago,
+            Parklane Country Homes, Phase 8 Block 19 <br> Lot 1, Santiago,
             General Trias Cavite
           </p>
           <p>©INSIDESTYLE2023</p>
         </div>
       </div>
     </footer>
+     <!-- SCRIPT -->
+     <script src="./toggle__menu.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
   </body>
 </html>

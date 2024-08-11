@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
   </head>
   <body>
     <!--HEADER-->
@@ -24,8 +25,8 @@
             </div>
           </div>
 
-          <nav class="header__nav">
-            <ul class="header__navtext">
+          <nav>
+            <ul class="header__nav">
               <li><a href="./Home.html">Home</a></li>
               <li><a href="./About.html">About</a></li>
               <li><a href="./Services.html">Services</a></li>
@@ -71,14 +72,15 @@
               </div>
               <div class="services__right">
                 <img src="/img/services/unsplash_15r9RAOy38Q.png" alt="" />
+                <img src="./img/home/Ellipse 1.png" alt="">
               </div>
             </div>
-            <a href=""><i class="fa-solid fa-chevron-down"></i></a>
+            <a href="#div1"><i class="fa-solid fa-chevron-down"></i></a>
           </div>
-          <div class="services__content">
+          <div id="div1" class="services__content">
             <div class="services__items">
               <div class="services__left">
-                <h3>Web Design <br />& Development</h3>
+                <h3>Graphics and <br />Vector Designs</h3>
                 <h2>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Obcaecati amet et quis doloribus natus consequatur dolor a,
@@ -101,15 +103,15 @@
                 </div>
               </div>
               <div class="services__right">
-                <img src="/img/services/unsplash_15r9RAOy38Q.png" alt="" />
+                <img src="./img/services/unsplash_In9Tha9_Hu4.png" alt="" />
               </div>
             </div>
-            <a href=""><i class="fa-solid fa-chevron-down"></i></a>
+            <a href="#div2"><i class="fa-solid fa-chevron-down"></i></a>
           </div>
-          <div class="services__content">
+          <div id="div2" class="services__content">
             <div class="services__items">
               <div class="services__left">
-                <h3>Web Design <br />& Development</h3>
+                <h3>Social Media <br />Specialist</h3>
                 <h2>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Obcaecati amet et quis doloribus natus consequatur dolor a,
@@ -132,13 +134,61 @@
                 </div>
               </div>
               <div class="services__right">
-                <img src="/img/services/unsplash_15r9RAOy38Q.png" alt="" />
+                <img src="./img/services/unsplash_v9FQR4tbIq8.png" alt="" />
+                <img src="./img/home/Ellipse 1.png" alt="">
               </div>
             </div>
-            <a href=""><i class="fa-solid fa-chevron-down"></i></a>
+            <a href="#section2"><i class="fa-solid fa-chevron-down"></i></a>
           </div>
         </div>
       </div>
     </section>
+    <!-- CONTEXT -->
+    <section id="section2" class="Context">
+      <div class="container">
+        <div class="Context__wrapper">
+          <div class="Context__text">
+            <h3>Feel free to talk about your Projects</h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="./Contacts.html" class="btn bg-dark">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul class="footer__social">
+            <li>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+          <p>
+            Parklane Country Homes, Phase 8 Block 19 <br>Lot 1, Santiago,
+            General Trias Cavite
+          </p>
+          <p>©INSIDESTYLE2023</p>
+        </div>
+      </div>
+    </footer>
+    <!-- SCRIPT -->
+    <script src="./toggle__menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
